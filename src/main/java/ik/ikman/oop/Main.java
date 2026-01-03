@@ -6,12 +6,20 @@ public class Main {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Car car1 = new Car(03,"toyota","allion", "black" );
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+
+        car1.id=01;
+        car1.brand="toyota";
+        car1.model="prius";
+        car1.color="white";
+
+        //Car car2 = new Car();
+        //car2.id=02;
+        //car2.brand="mercedeez";
+        //car2.model="m2";
+        //car2.color="red";
+
+
     }
 }
